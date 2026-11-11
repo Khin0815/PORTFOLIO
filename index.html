@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>John Kenneth Garcenila — Front-End Developer | Midnight Oxford</title>
+<meta name="description" content="Portfolio of John Kenneth Garcenila, a front-end developer building fast, accessible, responsive websites.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ===== HEADER & NAVIGATION ===== -->
+
+<header>
+  <div class="wrap bar">
+    <a class="logo" href="#home" aria-label="John Kenneth Garcenila — home"><i aria-hidden="true"></i><span>J.K. GARCENILA</span></a>
+    <button class="burger" aria-expanded="false" aria-controls="menu" aria-label="Open menu"><span></span></button>
+    <nav id="menu" aria-label="Main">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <!-- HERO: text first, portrait below on mobile -->
+  <section class="hero" id="home">
+    <div class="wrap">
+      <div>
+        <p class="tag">Player one ready<span class="blink" aria-hidden="true">_</span></p>
+        <h1>Hi, I'm <b>John Kenneth Garcenila</b>. I build web things that feel crafted.</h1>
+        <p>Aspiring Front-End Developer</p>
+        <div class="cta">
+          <a class="btn" href="#projects">View projects</a>
+          <a class="btn ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+      <figure class="portrait box" style="margin:0">
+        <img src="kenneth.jpg" alt="Portrait of John Kenneth Garcenila in a black suit and glasses" width="800" height="800" fetchpriority="high">
+      </figure>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+
+  <section id="about">
+    <div class="wrap">
+      <h2 class="h2">About</h2>
+      <div class="about">
+        <div>
+          <p>I'm John Kenneth Garcenila, a front-end developer who turns designs into fast, accessible websites that work on every screen.</p>
+          <p>A front-end developer builds everything people see and touch on a website: layout, color, motion, buttons and forms. It is where design, code and empathy meet.</p>
+          <p>That is what inspires me. One small change in spacing or contrast can make a page easier for someone to use, so I keep learning, keep building and keep the details sharp.</p>
+        </div>
+        <div class="stats">
+          <div class="box stat"><strong>5</strong><span>Screen sizes designed for</span></div>
+          <div class="box stat"><strong>100%</strong><span>Mobile-first</span></div>
+        </div>
+      </div>
+      <figure class="quote box">
+        <blockquote>&ldquo;The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect.&rdquo;</blockquote>
+        <figcaption>Tim Berners-Lee, inventor of the World Wide Web</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+
+  <section id="skills">
+    <div class="wrap">
+      <h2 class="h2">Skills</h2>
+      <div class="skills">
+        <div class="box skill"><svg viewBox="0 0 8 8" aria-hidden="true"><path fill="#f2c14e" d="M1 1h6v1H1zM1 2h1v5H1zM6 2h1v5H6zM3 3h2v1H3zM2 6h4v1H2z"/></svg><h3>HTML</h3><small>Semantic</small></div>
+        <div class="box skill"><svg viewBox="0 0 8 8" aria-hidden="true"><path fill="#6ee7b7" d="M1 1h6v1H1zM1 3h6v1H1zM1 5h6v1H1zM2 2h1v1H2zM5 4h1v1H5z"/></svg><h3>CSS</h3><small>Grid, Flex</small></div>
+        <div class="box skill"><svg viewBox="0 0 8 8" aria-hidden="true"><path fill="#f2c14e" d="M1 1h6v6H1z"/><path fill="#070b1a" d="M4 2h1v3H4zM2 5h2v1H2z"/></svg><h3>JavaScript</h3><small>ES2024</small></div>
+        <div class="box skill"><svg viewBox="0 0 8 8" aria-hidden="true"><path fill="#6ee7b7" d="M3 1h2v1H3zM1 3h6v2H1zM3 6h2v1H3zM2 2h1v1H2zM5 2h1v1H5z"/></svg><h3>React</h3><small>Hooks</small></div>
+        <div class="box skill"><svg viewBox="0 0 8 8" aria-hidden="true"><path fill="#f2c14e" d="M2 1h4v1H2zM1 2h1v2H1zM2 4h4v1H2zM6 5h1v1H6zM1 6h5v1H1z"/></svg><h3>Node</h3><small>APIs</small></div>
+        <div class="box skill"><svg viewBox="0 0 8 8" aria-hidden="true"><path fill="#6ee7b7" d="M1 1h2v6H1zM3 1h2v2H3zM5 3h2v2H5zM3 5h2v2H3z"/></svg><h3>Figma</h3><small>Prototypes</small></div>
+        <div class="box skill"><svg viewBox="0 0 8 8" aria-hidden="true"><path fill="#f2c14e" d="M2 1h1v6H2zM5 1h1v6H5zM3 2h2v1H3zM3 4h2v1H3z"/></svg><h3>Git</h3><small>Branching</small></div>
+        <div class="box skill"><svg viewBox="0 0 8 8" aria-hidden="true"><path fill="#6ee7b7" d="M1 5h1v2H1zM3 3h1v4H3zM5 1h1v6H5z"/></svg><h3>Performance</h3><small>Core Web Vitals</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+
+  <section id="projects">
+    <div class="wrap">
+      <h2 class="h2">Projects</h2>
+      <div class="projects">
+        <article class="box card">
+          <!-- Swap for: <img src="p1.webp" alt="..." width="800" height="500" loading="lazy" decoding="async"> -->
+          <div class="thumb" style="--c1:#14295c;--c2:#0d1b3d"><span>LEVEL 1</span></div>
+          <div class="body"><h3>Health Care Website</h3><p>A website that you can record the patient, view their medical history and manage appointments.</p>
+            <ul class="chips"><li>React</li><li>Node</li></ul>
+            <div class="links"><a class="btn" href="#">Live demo</a><a class="btn ghost" href="#">Code</a></div></div>
+        </article>
+        <article class="box card">
+          <div class="thumb" style="--c1:#1c3a2f;--c2:#0d1b3d"><span>LEVEL 2</span></div>
+          <div class="body"><h3>LA-UNION</h3><p>A LA-UNION tourist spot website, you can browse information about the location and plan your visit.</p>
+            <ul class="chips"><li>PWA</li><li>IndexedDB</li></ul>
+            <div class="links"><a class="btn" href="#">Live demo</a><a class="btn ghost" href="#">Code</a></div></div>
+        </article>
+        <article class="box card">
+          <div class="thumb" style="--c1:#4a3a12;--c2:#0d1b3d"><span>LEVEL 3</span></div>
+          <div class="body"><h3>Sprite Studio</h3><p>A browser editor for drawing, animating and exporting pixel art.</p>
+            <ul class="chips"><li>Canvas</li><li>JS</li></ul>
+            <div class="links"><a class="btn" href="#">Live demo</a><a class="btn ghost" href="#">Code</a></div></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DEVELOPMENT JOURNEY ===== -->
+
+  <section id="journey">
+    <div class="wrap">
+      <h2 class="h2">Development journey</h2>
+      <ol class="steps">
+        <li class="step"><time>The basics</time><h3>Learn</h3><p>HTML, CSS and JavaScript fundamentals.</p></li>
+        <li class="step"><time>Practice</time><h3>Build</h3><p>Small projects to sharpen layout and logic.</p></li>
+        <li class="step"><time>Portfolio</time><h3>Ship</h3><p>Responsive sites published for real users.</p></li>
+        <li class="step"><time>Teamwork</time><h3>Collaborate</h3><p>Git, code reviews and working with designers.</p></li>
+        <li class="step"><time>Next</time><h3>Grow</h3><p>Frameworks, performance and accessibility.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+
+  <section id="contact">
+    <div class="wrap">
+      <h2 class="h2">Contact</h2>
+      <div class="contact">
+        <div>
+          <p>Have a project in mind or want to say hello? Send a message and I'll reply within two days.</p>
+          <ul class="channels">
+            <li><a class="box" href="mailto:kennethgarcenila@gmail.com">kennethgarcenila@gmail.com</a></li>
+            <li><a class="box" href="https://github.com/Khin0815">https://github.com/Khin0815</a></li>
+          </ul>
+        </div>
+        <form class="box" id="form" novalidate>
+          <label>Name<input name="name" autocomplete="name" required></label>
+          <label>Email<input name="email" type="email" autocomplete="email" required></label>
+          <label>Message<textarea name="message" required></textarea></label>
+          <button class="btn" type="submit">Send message</button>
+          <p id="status" role="status"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ===== FOOTER ===== -->
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div><h2>MIDNIGHT OXFORD</h2><p>Pixel-perfect websites, built after dark.</p></div>
+      <div><h2>Pages</h2><ul><li><a href="#about">About</a></li><li><a href="#projects">Projects</a></li><li><a href="#contact">Contact</a></li></ul></div>
+      <div><h2>Elsewhere</h2><ul><li><a href="mailto:kennethgarcenila@gmail.com">kennethgarcenila@gmail.com</a></li><li><a href="#">Download résumé</a></li></ul></div>
+      <div><h2>Social</h2>
+        <div class="social">
+          <a href="https://github.com/Khin0815" aria-label="GitHub">GH</a>
+          <a href="https://linkedin.com/" aria-label="LinkedIn">IN</a>
+          <a href="https://x.com/" aria-label="X">X</a>
+        </div>
+      </div>
+    </div>
+    <p class="copy">&copy; <span id="y">2026</span> John Kenneth Garcenila. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
